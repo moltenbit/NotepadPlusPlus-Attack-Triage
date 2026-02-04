@@ -102,8 +102,7 @@ $Script:Config = @{
         @{ Path = "$env:APPDATA\Bluetooth\BluetoothService"; Description = "Encrypted Shellcode (no extension!)"; FalsePositiveRisk = "None" }
         @{ Path = "$env:APPDATA\Bluetooth\log.dll"; Description = "Chain #3 Malicious Sideloading DLL"; FalsePositiveRisk = "None" }
 
-        # Chain #3 - USOShared
-        @{ Path = "$env:ProgramData\USOShared"; Description = "Chain #3 Staging Directory (legitimate Windows path!)"; FalsePositiveRisk = "High" }
+        # Chain #3 - USOShared (note: USOShared directory itself is not checked as it exists on most Windows systems)
         @{ Path = "$env:ProgramData\USOShared\svchost.exe"; Description = "Renamed Tiny-C-Compiler"; FalsePositiveRisk = "None" }
         @{ Path = "$env:ProgramData\USOShared\conf.c"; Description = "Metasploit Shellcode"; FalsePositiveRisk = "None" }
         @{ Path = "$env:ProgramData\USOShared\libtcc.dll"; Description = "TCC Library"; FalsePositiveRisk = "Low" }

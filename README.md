@@ -143,7 +143,6 @@ Between June and November 2025, threat actors compromised the Notepad++ update i
 | `%AppData%\Bluetooth\BluetoothService.exe` | Renamed Bitdefender tool | Low |
 | `%AppData%\Bluetooth\BluetoothService` | Encrypted Shellcode (no extension) | **None** |
 | `%AppData%\Bluetooth\log.dll` | Malicious Sideloading DLL | **None** |
-| `%ProgramData%\USOShared\` | Staging Directory | **High** (legitimate Windows path) |
 | `%ProgramData%\USOShared\svchost.exe` | Renamed Tiny-C-Compiler | **None** |
 | `%ProgramData%\USOShared\conf.c` | Metasploit Shellcode | **None** |
 | `%ProgramData%\USOShared\libtcc.dll` | TCC Library | Low |
