@@ -1090,12 +1090,6 @@ function Invoke-Triage {
         Write-Host "  Critical Findings: $criticalCount" -ForegroundColor Red
         Write-Host "  High Findings: $highCount" -ForegroundColor Red
         Write-Host ""
-        Write-Host "  Recommended Actions:" -ForegroundColor Yellow
-        Write-Host "  1. Isolate this system from the network immediately" -ForegroundColor Yellow
-        Write-Host "  2. Preserve evidence (do not reboot or clean)" -ForegroundColor Yellow
-        Write-Host "  3. Contact your incident response team" -ForegroundColor Yellow
-        Write-Host "  4. Review the HTML report for detailed findings" -ForegroundColor Yellow
-        Write-Host ""
     }
     else {
         Write-Host ""

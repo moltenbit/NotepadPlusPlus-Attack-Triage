@@ -239,13 +239,13 @@ Between June and November 2025, threat actors compromised the Notepad++ update i
 
 ### Severity Levels
 
-| Level | Meaning | Recommended Action |
-|-------|---------|-------------------|
-| **Critical** | Strong indicator of active compromise | Isolate system immediately, engage IR team |
-| **High** | Likely indicator of compromise | Investigate immediately, consider isolation |
-| **Medium** | Potential indicator, possible false positive | Investigate further before taking action |
-| **Low** | Weak indicator, high false positive chance | Note for reference, verify manually |
-| **Info** | Informational finding | No action required |
+| Level | Meaning |
+|-------|---------|
+| **Critical** | Strong indicator of active compromise |
+| **High** | Likely indicator of compromise |
+| **Medium** | Potential indicator, possible false positive |
+| **Low** | Weak indicator, high false positive chance |
+| **Info** | Informational finding |
 
 ### Report Files
 
@@ -260,15 +260,6 @@ Between June and November 2025, threat actors compromised the Notepad++ update i
 - Open in any web browser
 - Color-coded severity indicators
 - Summary statistics and detailed findings
-
-## If Compromise is Detected
-
-1. **Isolate the system** from the network immediately
-2. **Do not reboot** or attempt to clean the system
-3. **Preserve evidence** - keep all logs and files intact
-4. **Contact your incident response team** or security provider
-5. **Document the timeline** of events
-6. Review the full HTML report for detailed findings
 
 ## Limitations
 
