@@ -11,6 +11,10 @@ Between June and November 2025, threat actors compromised the Notepad++ update i
 - [Rapid7 - Chrysalis Backdoor Analysis](https://www.rapid7.com/blog/post/tr-chrysalis-backdoor-dive-into-lotus-blossoms-toolkit/)
 - [Notepad++ Official Statement](https://notepad-plus-plus.org/news/hijacked-incident-info-update/)
 
+## Security Disclaimer
+
+**This script checks for specific known Indicators of Compromise (IoCs) only. A clean result does NOT guarantee that your system is free from compromise.** Attackers may use different techniques, file paths, domains, or IP addresses not covered by this script. For comprehensive security assessment, consult a professional incident response team.
+
 ## Important Safety Information
 
 **This script is designed to be completely safe and non-invasive:**

@@ -671,6 +671,7 @@ function New-JSONReport {
             Username = $env:USERNAME
             ScriptVersion = "1.0"
             IncidentReference = "Notepad++ Supply Chain Attack (June-November 2025)"
+            Disclaimer = "This script checks for specific known IoCs only. A clean result does NOT guarantee that your system is free from compromise. Attackers may use different techniques, file paths, domains, or IP addresses not covered by this script."
         }
         Summary = @{
             TotalFindings = 0
@@ -774,6 +775,7 @@ function New-HTMLReport {
         .no-findings { color: #28a745; font-style: italic; padding: 20px; text-align: center; }
         code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-family: 'Consolas', monospace; font-size: 0.9em; word-break: break-all; }
         footer { text-align: center; padding: 20px; color: #666; }
+        .disclaimer { background: #fff3cd; border: 1px solid #ffc107; color: #856404; padding: 15px; border-radius: 10px; margin-bottom: 20px; font-size: 0.95em; }
     </style>
 </head>
 <body>
@@ -784,6 +786,10 @@ function New-HTMLReport {
         </header>
 
         <div class="status-banner">$statusText</div>
+
+        <div class="disclaimer">
+            <strong>⚠ Disclaimer:</strong> This script checks for specific known Indicators of Compromise (IoCs) only. A clean result does NOT guarantee that your system is free from compromise. Attackers may use different techniques, file paths, domains, or IP addresses not covered by this script. For comprehensive security assessment, consult a professional incident response team.
+        </div>
 
         <div class="summary-grid">
             <div class="summary-card">
